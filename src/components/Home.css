@@ -1,0 +1,75 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  font-family: "Poppins";
+  color: #fff;
+  text-shadow: 1px 1px #111;
+  padding-top: 200px;
+}
+
+.home::before {
+  background-image: url("../assets/headshot.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
+  filter: brightness(60%);
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 22vh;
+}
+
+.home-text-primary {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.home-text-secondary {
+  font-size: 1.4rem;
+}
+
+.home-text-tertiary {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.home-text-btn {
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  border: 3px solid rgb(94, 197, 154);
+  color: rgb(94, 197, 154);
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 25px;
+  letter-spacing: 0.6px;
+}
+
+.home-text-btn:hover {
+  color: white;
+  background-color: rgb(94, 197, 154);
+  transition: all 0.3s ease;
+}
+
+.home-text-btn:active {
+  border: 0;
+  box-shadow: inset 2px 2px 4px #333;
+}
+
+@media screen and (max-width: 500px) {
+  .home-text {
+    margin-top: 12vh;
+  }
+}

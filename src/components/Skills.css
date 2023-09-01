@@ -1,0 +1,35 @@
+.skills {
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+}
+
+.skills-header {
+  text-align: center;
+  padding: 50px 0 5px 0;
+}
+
+.skills-header-text {
+  color: rgba(70, 70, 70, 0.15);
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  padding: 0;
+}
+
+.skills-header-line {
+  height: 0;
+  border-bottom: 3px solid rgb(94, 197, 154);
+  width: 100px;
+  margin: 0 auto 35px auto;
+}
+
+.skills-main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skills-main-row {
+  display: flex;
+  gap: 20px;
+}
